@@ -55,5 +55,7 @@ app.post("/calculator", (req, res) => {
    var result = eval(data);
    res.send(String(result));
  });
+
+ 
  
  
